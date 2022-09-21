@@ -142,7 +142,7 @@ img{
 
 
 .container{
-   max-width: 95%;
+   max-width: 75%;
    padding: 20px 0 90px 0;
    margin: 0 auto;
    background-color:powderblue;
@@ -160,7 +160,8 @@ img{
 }
 
 .skorpion {
-   margin-bottom: 80px;
+   max-width: 75%;
+   margin: 0 auto;
    color: #15f4ee;
    font-weight: 700;
    font-size: 120px;
@@ -214,13 +215,14 @@ img{
 }
 
 .water{
-   max-width: 100%;
+   white-space: nowrap;
+   max-width: 75%;
    margin: 0 auto;
 }
 
 .drop{
    display: inline-block;
-   margin-left: 30px;
+   margin-right: 30px;
    width: 150px;
    height: 150px;
    box-shadow: inset 10px 10px 10px rgba(0, 0, 0, 0.05),
@@ -231,7 +233,12 @@ img{
    overflow: hidden;
 }
 
+.drop.nth-1{
+   margin-left: 6%;
+}
+
 .nth-1 div{
+   margin-left: 48px;
    opacity: 0;
 }
 
@@ -240,11 +247,11 @@ img{
 }
 
 .drop.nth-2{
-   border-radius: 30% 70% 70% 30% / 84% 30% 70% 16%;
+   border-radius: 74% 26% 14% 86% / 17% 62% 38% 83%;
 }
 
 .nth-2 div{
-   margin-left: -190px;
+   margin-left: -137px;
    opacity: 0;
 }
 
@@ -257,7 +264,7 @@ img{
 }
 
 .nth-3 div {
-   margin-left: -375px;
+   margin-left: -317px;
    opacity: 0;
 }
 
@@ -270,7 +277,7 @@ img{
 }
 
 .nth-4 div {
-   margin-left: -560px;
+   margin-left: -500px;
    opacity: 0;
 }
 
@@ -278,10 +285,23 @@ img{
    opacity: 1;
 }
 
+.drop.nth-5 {
+   border-radius: 30% 70% 89% 11% / 72% 30% 70% 28%;
+}
+
+.nth-5 div {
+   margin-left: -687px;
+   opacity: 0;
+}
+
+.nth-5 div:hover {
+   opacity: 1;
+}
+
 
 .window{
    overflow: auto;
-   max-width: 70%;
+   max-width: 50%;
    margin: 0 auto;
    background-color: powderblue;
    border-radius: 10px;
@@ -354,7 +374,9 @@ img{
 }
 
 .container__slider {
+   margin: 0 auto;
    overflow: auto;
+   max-width: 60%;
    max-height: 500px;
    background-color: blue;
    box-shadow:
